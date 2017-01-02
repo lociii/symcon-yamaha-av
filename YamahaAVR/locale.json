@@ -1,0 +1,11 @@
+{
+    "translations": {
+        "de": {
+            "Service settings": "Dienst-Einstellungen",
+            "IP address": "IP-Adresse",
+            "Module settings": "Modul-Einstellungen",
+            "(in minutes)": "(in Minuten)",
+            "Update": "Aktualisieren"
+        }
+    }
+}

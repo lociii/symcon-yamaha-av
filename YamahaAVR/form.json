@@ -1,0 +1,26 @@
+{
+    "elements": [
+        {"type": "Label", "label": "Service settings"},
+        {"type": "ValidationTextBox", "name": "yavr_ip", "caption": "IP address"},
+        {"type": "Label", "label": "Module settings"},
+        {"type": "IntervalBox", "name": "yavr_interval", "caption": "(in minutes)"}
+    ],
+    "actions": [
+        {"type": "Button", "label": "Update", "onClick": "LOCIYAVR_Update($id);"},
+        {"type": "Button", "label": "Power on", "onClick": "LOCIYAVR_PowerOn($id);"},
+        {"type": "Button", "label": "Power off", "onClick": "LOCIYAVR_PowerOff($id);"},
+        {"type": "Button", "label": "Mute on", "onClick": "LOCIYAVR_MuteOn($id);"},
+        {"type": "Button", "label": "Mute off", "onClick": "LOCIYAVR_MuteOff($id);"},
+        {"type": "Button", "label": "Volume increase", "onClick": "LOCIYAVR_VolumeIncrease($id);"},
+        {"type": "Button", "label": "Volume decrease", "onClick": "LOCIYAVR_VolumeDecrease($id);"},
+        {"type": "Button", "label": "Scene 1", "onClick": "LOCIYAVR_SceneSet1($id);"},
+        {"type": "Button", "label": "Scene 2", "onClick": "LOCIYAVR_SceneSet2($id);"},
+        {"type": "Button", "label": "Scene 3", "onClick": "LOCIYAVR_SceneSet3($id);"},
+        {"type": "Button", "label": "Scene 4", "onClick": "LOCIYAVR_SceneSet4($id);"}
+    ],
+    "status": [
+        {"code": 101, "icon": "active", "caption": "Instance is getting created!"},
+        {"code": 102, "icon": "active", "caption": "Instance is active!"},
+        {"code": 104, "icon": "inactive", "caption": "Instance is inactive!"}
+    ]
+}
