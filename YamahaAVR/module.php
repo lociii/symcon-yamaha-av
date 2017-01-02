@@ -1,9 +1,9 @@
 <?php
 
 include_once(__DIR__ . '/../shared/BaseModule.php');
-include_once(__DIR__ . '/YamahaAVR.php');
+include_once(__DIR__ . '/Yamaha.php');
 
-class YamahaAVControl extends IPSBaseModule
+class YamahaAVR extends IPSBaseModule
 {
     protected $config = array('yavr_ip', 'yavr_interval');
     private $yamaha;
