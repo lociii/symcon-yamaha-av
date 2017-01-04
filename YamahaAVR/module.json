@@ -1,13 +1,14 @@
 {
-    "id": "{253BDC85-8193-4477-8927-F0F661F77234}",
-    "name": "YamahaAVControl",
-    "type": 3,
-    "vendor": "LociSymcon",
-    "aliases": [
-        "Yamaha AV Control"
-    ],
-    "parentRequirements": [],
-    "childRequirements": [],
-    "implemented": [],
-    "prefix": "LOCIYAC"
+  "id": "{253BDC85-8193-4477-8927-F0F661F77234}",
+  "name": "YamahaAVR",
+  "type": 3,
+  "vendor": "",
+  "aliases": [
+    "Yamaha AV control",
+    "Yamaha Verstärker"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "LOCIYAC"
 }
