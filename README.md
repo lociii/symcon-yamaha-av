@@ -1,3 +1,7 @@
+# UNMAINTAINED
+This project is not maintained anymore. Feel free to fork and use it.
+No support nor development will be done!
+
 # Yamaha AVR control
 Ermittlung des Status und Steuerung eines Yamaha AV Receiver
 Der Receiver muss die Fernsteuerung per API zulassen. Wenn ein Einschalten moeglich sein soll muss die Option "Network Standby" in den Einstellungen des Receivers aktiv sein.
